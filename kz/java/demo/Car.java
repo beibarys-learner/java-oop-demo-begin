@@ -17,6 +17,10 @@ public class Car extends Transport{
 
     @Override
     public void drive() {
+
+        // you can use parent method using super keyword, like hello car
+        super.drive();
+        super.stop();
         System.out.println("car can drive - overrided");
     }
 

@@ -13,7 +13,7 @@ public class Transport {
     }
 
     public void drive(){
-        String hello = "hello ";
+        String hello = "Assalamu aleikum, Allahu Akbar ";
         System.out.println("");
         System.out.println(hello + name);
         System.out.println(name + " can drive");

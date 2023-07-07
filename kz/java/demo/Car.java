@@ -15,14 +15,12 @@ public class Car extends Transport{
         System.out.println("signal");
     }
 
-    @Override
+/*    @Override
     public void drive() {
 
         // you can use parent method using super keyword, like hello car
-        super.drive();
-        super.stop();
         System.out.println("car can drive - overrided");
-    }
+    }*/
 
     @Override
     public void stop() {
@@ -36,6 +34,9 @@ public class Car extends Transport{
     public Car(String name, String model, String color, int number) {
         super(name, model, color);
         this.number = number;
+    }
+
+    public Car() {
     }
 
     public Car(int number) {

@@ -4,7 +4,14 @@ public class Car {
     private String name;
     private String model;
     private String color;
-    private int number;
+    private int number1;
+    // new variable number 2, modified number 1
+    private int number2;
+
+    public Car(int number1) {
+        this.number1 = number1;
+    }
+    // "constructor already exists" when try to add constructor with number 2
 
     // we created two constructor: with parameters and without parameters
     public Car() {

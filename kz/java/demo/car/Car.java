@@ -50,8 +50,9 @@ public class Car extends Transport {
 
     public Car() {
     }
-
-    public Car(int number) {
+    // modified Car constructor by adding Engine
+    public Car(int number, Engine engine) {
         this.number = number;
+        this.engine = engine;
     }
 }

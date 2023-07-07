@@ -3,6 +3,15 @@ package kz.java.demo;
 public class Engine {
     private double Volume;
 
+    //created constructor for Engine with Volume parameter and without parameter
+
+    public Engine() {
+    }
+
+    public Engine(double volume) {
+        Volume = volume;
+    }
+
     public double getVolume() {
         return Volume;
     }

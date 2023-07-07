@@ -9,11 +9,10 @@ public class Main {
     public static void main(String[] args) {
 
         //created object engine and set volume 10
-        Engine engine = new Engine();
-        engine.setVolume(10);
+        Engine engine = new Engine(10);
+//        engine.setVolume(10);
 
-        Car car = new Car();
-        car.setEngine(engine); // imported engine into Car
-        System.out.println(car.getEngine()); // prints hashCode, if you comment row 16 - result will be null
+        Car car = new Car(13, engine);
+        System.out.println("car.getEngine() = " + car.getEngine());
     }
 }

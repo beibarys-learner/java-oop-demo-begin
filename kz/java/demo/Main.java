@@ -5,14 +5,8 @@ public class Main {
 
         Car car = new Car();
 
-        Car nissan = new Car();
-        nissan.setName("GTR");
-        nissan.setColor("Black");
-        nissan.setModel("Sport Car");
-        nissan.setNumber1(10);
-        nissan.setNumber2(20);
-
-        int result = nissan.sumNumbers();
-        System.out.println("result = " + result);
+        //Car class inherits all methods and fields from parent class Transport, and has access to them
+        car.setName("car");
+        car.drive();
     }
 }

@@ -12,8 +12,17 @@ public class Main {
         System.out.println(nissan.getName());
         System.out.println(nissan.getColor());
         System.out.println(nissan.getModel());
-
         nissan.drive();
+
+        Car nissan2 = new Car();
+        Car nissan3 = new Car("Teana", "White", "Business car");
+        System.out.println(nissan3.getName() + " " + nissan3.getModel() + " " + nissan3.getColor());
+
+        Car nissan4 = new Car("Qashqai");
+        Car nissan5 = new Car("Teana", "White", "Business car", 12);
+
+        System.out.println(nissan4.getName());
+
 
         Car bmw = new Car();
 

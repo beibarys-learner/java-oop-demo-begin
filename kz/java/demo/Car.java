@@ -4,7 +4,29 @@ public class Car {
     private String name;
     private String model;
     private String color;
-    
+    private int number;
+
+    // we created two constructor: with parameters and without parameters
+    public Car() {
+    }
+
+    public Car(String name) {
+        this.name = name;
+    }
+
+    public Car(String name, String model, String color) {
+        this.name = name;
+        this.model = model;
+        this.color = color;
+    }
+    // created new variable int, new constructor with 4 parameters
+    public Car(String name, String model, String color, int number) {
+        this.name = name;
+        this.model = model;
+        this.color = color;
+        this.number = number;
+    }
+
     public void drive(){
         String hello = "hello ";
         System.out.println("");

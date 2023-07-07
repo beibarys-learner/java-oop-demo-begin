@@ -6,6 +6,15 @@ import kz.java.demo.Transport;
 public class Car extends Transport {
     private int number; // car can have own number so Car class also has get, set methods
     private Engine engine; // added Engine to Car
+
+    public Engine getEngine() {
+        return engine;
+    }
+
+    public void setEngine(Engine engine) {
+        this.engine = engine;
+    }
+
     public int getNumber() {
         return number;
     }

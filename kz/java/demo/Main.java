@@ -1,12 +1,15 @@
 package kz.java.demo;
 
+import kz.java.demo.car.BMW;
+import kz.java.demo.motorbike.Kawasaki;
+import kz.java.demo.motorbike.Ural;
+
 public class Main {
     public static void main(String[] args) {
-        BMW bmw = new BMW();
-        bmw.drive();
+        Kawasaki kawasaki = new Kawasaki("kawa", "super model", "white", 5.5, 2023);
+        kawasaki.jump();
 
-        Car car = new Car();
-        car.drive();
-
+        Ural ural = new Ural("ural", "new model", "red", 5.7, true);
+        ural.showInfo();
     }
 }

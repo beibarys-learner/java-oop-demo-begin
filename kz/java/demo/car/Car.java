@@ -1,6 +1,8 @@
-package kz.java.demo;
+package kz.java.demo.car;
 
-public class Car extends Transport{
+import kz.java.demo.Transport;
+
+public class Car extends Transport {
     private int number; // car can have own number so Car class also has get, set methods
 
     public int getNumber() {

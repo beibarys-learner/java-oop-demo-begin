@@ -1,6 +1,6 @@
-package kz.java.demo;
+package kz.java.demo.car;
 
-public class BMW extends Car{
+public class BMW extends Car {
 
     // super in constructors calls only above one class, and cannot go after in the inheritance chain
     public BMW(String name, String model, String color) {
@@ -8,6 +8,7 @@ public class BMW extends Car{
     }
 
     public BMW() {
+        // super(); computer call this even if we don't write it
     }
 
     @Override

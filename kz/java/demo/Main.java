@@ -7,8 +7,8 @@ public class Main {
         Car nissan = new Car();
 
         System.out.println(car.model);
-        System.out.println(bmw.drive());
-        System.out.println(nissan.stop());
+        bmw.drive();
+        nissan.stop();
 
 
     }

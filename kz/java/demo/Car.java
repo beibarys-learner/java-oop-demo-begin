@@ -4,12 +4,14 @@ public class Car {
     String name;
     String model;
     String color;
-
-    public String drive() {
-        return null;
+    
+    public void drive(){
+        String hello = "hello";
+        System.out.println(hello + name);
+        System.out.println(name + " can drive");
+    }
+    public void stop(){
+        System.out.println(name + " must stop");
     }
 
-    public String stop() {
-        return null;
-    }
 }

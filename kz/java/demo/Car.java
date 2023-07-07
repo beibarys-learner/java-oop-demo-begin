@@ -26,6 +26,16 @@ public class Car {
         this.color = color;
         this.number = number;
     }
+    // created 2 constructors with String and Int
+    public Car(String name, int number) {
+        this.name = name;
+        this.number = number;
+    }
+
+    public Car(int number, String name) {
+        this.name = name;
+        this.number = number;
+    }
 
     public void drive(){
         String hello = "hello ";

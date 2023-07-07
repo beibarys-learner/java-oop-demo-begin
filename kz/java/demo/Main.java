@@ -23,9 +23,12 @@ public class Main {
 
         System.out.println(nissan4.getName());
 
-
-        Car bmw = new Car();
-
+        /*
+            you can create different objects from constructors - order
+            - but there is no need in doing this
+         */
+        Car bmw1 = new Car("Name 1", 1);
+        Car bmw2 = new Car(1, "Name 1");
 
     }
 }

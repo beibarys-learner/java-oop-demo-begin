@@ -14,5 +14,6 @@ public class Main {
 
         Car car = new Car();
         car.setEngine(engine); // imported engine into Car
+        System.out.println(car.getEngine()); // prints hashCode, if you comment row 16 - result will be null
     }
 }

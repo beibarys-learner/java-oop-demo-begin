@@ -28,6 +28,17 @@ public class Car extends Transport{
     public void stop() {
         System.out.println("car can stop - overrided");
     }
+    // new constructor defined from Transport class
+    public Car(String name, String model, String color) {
+        super(name, model, color);
+    }
+    // created new constructor belongs to Car, with unique int
+    public Car(String name, String model, String color, int number) {
+        super(name, model, color);
+        this.number = number;
+    }
 
-    //you should write override, because it will help to find the methods from superclass
+    public Car(int number) {
+        this.number = number;
+    }
 }

@@ -8,8 +8,10 @@ public class Transport {
     public Transport() {
     }
 
-    public Transport(String name) {
+    public Transport(String name, String model, String color) {
         this.name = name;
+        this.model = model;
+        this.color = color;
     }
 
     public void drive(){

@@ -2,12 +2,10 @@ package kz.java.demo.robotmodel;
 
 public class Main {
     public static void main(String[] args) {
-        Robocop robocop = new Robocop();
+        Robocop robocop = new Robocop("Robo Цыпа");
         robocop.flight();
-        robocop.setName("robo");
-        System.out.println(robocop.getName());
+        robocop.talk();
 
-        Terminator terminator = new Terminator();
-        terminator.stop();
+        // constructors created in ARobot, Robocop, Terminator
     }
 }

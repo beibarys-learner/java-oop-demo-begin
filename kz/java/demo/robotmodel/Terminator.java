@@ -15,4 +15,9 @@ public class Terminator extends ARobot{
     public void flight() {
         System.out.println("Terminator flight");
     }
+
+    @Override
+    public void talk() {
+        System.out.println("terminator talk");
+    }
 }

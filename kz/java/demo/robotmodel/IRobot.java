@@ -8,7 +8,6 @@ public interface IRobot {
     void flight();
     // you cannot write the fields in the Interface
 
-
     // field methods
     String getName();
 }

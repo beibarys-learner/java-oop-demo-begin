@@ -10,4 +10,9 @@ public abstract class ARobot implements IRobot{
     public void setName(String name) {
         this.name = name;
     }
+
+    public abstract void talk();
+    //System.out.println(name + " talking");
+    // you can create abstract methods
+
 }

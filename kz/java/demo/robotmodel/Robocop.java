@@ -17,4 +17,8 @@ public class Robocop extends ARobot{
     }
 
 
+    @Override
+    public void talk() {
+        System.out.println("robo talk");
+    }
 }

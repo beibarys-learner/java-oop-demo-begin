@@ -4,6 +4,7 @@ public class Transport {
     private String name;
     private String model;
     private String color;
+    public static int year; // if you neglect static, result will be 2000, bmw 0
 
     public Transport() {
     }

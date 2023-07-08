@@ -8,8 +8,6 @@ public class BMW extends Car {
     }
 
     public BMW() {
-        // super(); computer call this even if we don't write it
-        System.out.println("bmw");
     }
 
     @Override

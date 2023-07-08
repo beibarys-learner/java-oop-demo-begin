@@ -4,20 +4,10 @@ public class Kawasaki extends Motorbike {
     public Kawasaki() {
     }
 
-    public Kawasaki(String name, String model, String color, double volume, int year) {
+    public Kawasaki(String name, String model, String color, double volume) {
         super(name, model, color, volume);
-        this.year = year;
     }
 
-    private  int year;
-
-    public int getYear() {
-        return year;
-    }
-
-    public void setYear(int year) {
-        this.year = year;
-    }
 
     public void jump(){
         System.out.println("Kawasaki jump");

@@ -8,16 +8,13 @@ import kz.java.demo.motorbike.Ural;
 
 public class Main {
     public static void main(String[] args) {
-//        final used for constants (public)
-//        wheelCount created in Motorbike and Car
-//        uncommented drive method in car, and fixed some methods in BMW, Toyota and Car
+        Toyota toyota = new Toyota();
+        toyota.year = 2000; // year will be static for Transport and child class' objects
 
-        Car car = new Car(new Engine(10));
-        System.out.println("car.wheelCount = " + car.wheelCount);
-        car.drive();
+        // static optimizes code, you don't need get set methods
+        System.out.println(toyota.year);
 
-      /*  Ural ural = new Ural();
-        System.out.println(ural.wheelCount);
-*/
+        BMW bmw = new BMW();
+        System.out.println(bmw.year);
     }
 }

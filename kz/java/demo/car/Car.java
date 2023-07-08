@@ -6,7 +6,7 @@ import kz.java.demo.Transport;
 public class Car extends Transport {
     private int number; // car can have own number so Car class also has get, set methods
     private Engine engine; // added Engine to Car
-    public final int wheelCount;
+    public final int wheelCount = 4;
     public Engine getEngine() {
         return engine;
     }

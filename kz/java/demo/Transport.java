@@ -4,7 +4,7 @@ public class Transport {
     private String name;
     private String model;
     private String color;
-    public static int year; // if you neglect static, result will be 2000, bmw 0
+    public final static int year = 2023; // if you neglect static, result will be 2000, bmw 0
 
     public Transport() {
     }
@@ -22,6 +22,7 @@ public class Transport {
         System.out.println(name + " can drive");
     }
     public void stop(){
+        System.out.println("year = " + year);
         System.out.println(name + " must stop");
     }
 

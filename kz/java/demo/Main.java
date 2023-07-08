@@ -8,14 +8,13 @@ import kz.java.demo.motorbike.Ural;
 
 public class Main {
     public static void main(String[] args) {
+        //added final static int year in Transport class
         Toyota toyota = new Toyota();
-        toyota.year = 2000; // year will be static for Transport and child class' objects
-
-        // static optimizes code, you don't need get set methods
         System.out.println(toyota.year);
-        System.out.println(toyota.formatText("some text"));
-        toyota.formatText("bbbb");
+
         Car car = new Car();
-        System.out.println(car.formatText("cccc"));
+        System.out.println(car.year);
+        //same value for different objects, add some method to stop() you can call it
+
     }
 }

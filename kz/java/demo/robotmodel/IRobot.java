@@ -10,6 +10,7 @@ public interface IRobot {
 
     // field methods
     String getName();
+    Wing getWing();
 
     void talk();
 }

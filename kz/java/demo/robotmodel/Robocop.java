@@ -20,7 +20,7 @@ public class Robocop extends ARobot{
 
     @Override
     public void flight() {
-        System.out.println("Robocop flight");
+        System.out.println("Robocop flight" + getWing().getSize());
     }
 
 

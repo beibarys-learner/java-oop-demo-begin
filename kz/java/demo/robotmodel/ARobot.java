@@ -2,6 +2,17 @@ package kz.java.demo.robotmodel;
 
 public abstract class ARobot implements IRobot{
     private String name;
+    private Wing wing;
+
+    public ARobot(String name, Wing wing) {
+        this.name = name;
+        this.wing = wing;
+    }
+
+    public ARobot(Wing wing) {
+        this.wing = wing;
+    }
+
     @Override
     public String getName() {
         return name;
@@ -20,5 +31,14 @@ public abstract class ARobot implements IRobot{
 
     public ARobot(String name) {
         this.name = name;
+    }
+
+    @Override
+    public Wing getWing() {
+        return wing;
+    }
+
+    public void setWing(Wing wing) {
+        this.wing = wing;
     }
 }

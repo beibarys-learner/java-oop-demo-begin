@@ -9,13 +9,11 @@ public class BMW extends Car {
 
     public BMW() {
         // super(); computer call this even if we don't write it
+        System.out.println("bmw");
     }
 
     @Override
     public void drive() {
-        // super looks for Car's signal class (каждый встречный выше)
-        super.signal();
-        super.drive();
         System.out.println("drive bmw");
         // method overrides all parent methods
     }

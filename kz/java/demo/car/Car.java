@@ -6,7 +6,7 @@ import kz.java.demo.Transport;
 public class Car extends Transport {
     private int number; // car can have own number so Car class also has get, set methods
     private Engine engine; // added Engine to Car
-
+    public final int wheelCount = 4;
     public Engine getEngine() {
         return engine;
     }
@@ -27,12 +27,12 @@ public class Car extends Transport {
         System.out.println("signal");
     }
 
-/*    @Override
+    @Override
     public void drive() {
 
         // you can use parent method using super keyword, like hello car
         System.out.println("car can drive - overrided");
-    }*/
+    }
 
     @Override
     public void stop() {
@@ -48,11 +48,15 @@ public class Car extends Transport {
         this.number = number;
     }
 
-    public Car() {
+    public Car(Engine engine) {
+        this.engine = engine;
     }
     // modified Car constructor by adding Engine
     public Car(int number, Engine engine) {
         this.number = number;
         this.engine = engine;
+    }
+
+    public Car() {
     }
 }

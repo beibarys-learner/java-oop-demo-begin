@@ -16,6 +16,7 @@ public class Motorbike extends Transport {
     }
 
     private double volume;
+    public final int wheelCount = 2;
 
     public double getVolume() {
         return volume;

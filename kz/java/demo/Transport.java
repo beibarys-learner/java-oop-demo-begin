@@ -48,4 +48,10 @@ public class Transport {
     public void setColor(String color) {
         this.color = color;
     }
+    // optimizes code one static method for 100 objects like Transport, Car
+    public static String formatText(String text){
+        // non-static field name cannot be applied for static methods like formatText
+        // System.out.println("name = " + name);
+        return text + "!!!";
+    }
 }

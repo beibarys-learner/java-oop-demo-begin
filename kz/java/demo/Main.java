@@ -13,8 +13,9 @@ public class Main {
 
         // static optimizes code, you don't need get set methods
         System.out.println(toyota.year);
-
-        BMW bmw = new BMW();
-        System.out.println(bmw.year);
+        System.out.println(toyota.formatText("some text"));
+        toyota.formatText("bbbb");
+        Car car = new Car();
+        System.out.println(car.formatText("cccc"));
     }
 }

@@ -4,7 +4,7 @@ public class Robocop extends ARobot{
     public Robocop() {
     }
 
-    public Robocop(String name, Wing wing) {
+    public Robocop(String name, IWing wing) {
         super(name, wing);
     }
 
@@ -29,5 +29,8 @@ public class Robocop extends ARobot{
         System.out.println("robo talk");
     }
 
-
+    @Override
+    public void on() {
+        System.out.println("on with beep");
+    }
 }

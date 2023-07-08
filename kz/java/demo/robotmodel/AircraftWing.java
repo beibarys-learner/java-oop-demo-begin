@@ -1,6 +1,6 @@
 package kz.java.demo.robotmodel;
 
-public class AircraftWing implements Wing{
+public class AircraftWing implements IWing {
     private int size;
     @Override
     public void open() {

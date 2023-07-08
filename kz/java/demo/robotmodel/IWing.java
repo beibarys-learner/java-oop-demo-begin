@@ -1,6 +1,6 @@
 package kz.java.demo.robotmodel;
 
-public interface Wing {
+public interface IWing {
     void open();
     int getSize();
 }

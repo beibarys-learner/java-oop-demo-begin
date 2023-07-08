@@ -1,4 +1,4 @@
-package kz.java.demo;
+package kz.java.demo.carmodel;
 
 public class Engine {
     private double Volume;

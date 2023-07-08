@@ -1,4 +1,4 @@
-package kz.java.demo.motorbike;
+package kz.java.demo.carmodel.motorbike;
 
 public class Kawasaki extends Motorbike {
     public Kawasaki() {

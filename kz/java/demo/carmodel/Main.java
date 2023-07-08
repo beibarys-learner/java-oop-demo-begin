@@ -1,10 +1,7 @@
-package kz.java.demo;
+package kz.java.demo.carmodel;
 
-import kz.java.demo.car.BMW;
-import kz.java.demo.car.Car;
-import kz.java.demo.car.Toyota;
-import kz.java.demo.motorbike.Kawasaki;
-import kz.java.demo.motorbike.Ural;
+import kz.java.demo.carmodel.car.Car;
+import kz.java.demo.carmodel.car.Toyota;
 
 public class Main {
     public static void main(String[] args) {

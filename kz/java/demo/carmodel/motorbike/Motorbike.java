@@ -1,6 +1,6 @@
-package kz.java.demo.motorbike;
+package kz.java.demo.carmodel.motorbike;
 
-import kz.java.demo.Transport;
+import kz.java.demo.carmodel.Transport;
 
 public class Motorbike extends Transport {
     public Motorbike() {

@@ -1,4 +1,4 @@
-package kz.java.demo.car;
+package kz.java.demo.carmodel.car;
 
 public class Toyota extends Car {
     public Toyota() {

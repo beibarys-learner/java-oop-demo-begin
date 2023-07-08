@@ -1,6 +1,4 @@
-package kz.java.demo.motorbike;
-
-import kz.java.demo.motorbike.Motorbike;
+package kz.java.demo.carmodel.motorbike;
 
 public class Ural extends Motorbike {
     public Ural() {

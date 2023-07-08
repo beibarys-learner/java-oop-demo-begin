@@ -1,6 +1,6 @@
 package kz.java.demo.robotmodel;
 
-public interface IRobot extends ITechnic{
+public interface IRobot {
     // interface you can write only methods and constants
     // below methods
     void move();

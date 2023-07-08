@@ -1,6 +1,6 @@
 package kz.java.demo.robotmodel;
 
-public abstract class ARobot implements IRobot{
+public abstract class ARobot implements IRobot, ITechnic{
     private String name;
     private IWing wing;
 

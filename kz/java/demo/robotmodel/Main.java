@@ -14,9 +14,7 @@ public class Main {
         robocop.flight();
         robocop.talk();
 
-        // constructors created in ARobot, Robocop, Terminator
-        // inheritance is not preferred in abstract classes
-        // added Wing interface, getWing in IRobot (row 14)
-        // created AircraftWing
+        // IRobot no more extends from Itechnic, ARobot implements IRobot, ITechnic
+
     }
 }

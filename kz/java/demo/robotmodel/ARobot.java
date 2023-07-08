@@ -9,8 +9,7 @@ public abstract class ARobot implements IRobot{
         this.wing = wing;
     }
 
-    public ARobot(Wing wing) {
-        this.wing = wing;
+    public ARobot() {
     }
 
     @Override
@@ -24,14 +23,6 @@ public abstract class ARobot implements IRobot{
 
     //System.out.println(name + " talking");
     // you can create abstract methods
-
-
-    public ARobot() {
-    }
-
-    public ARobot(String name) {
-        this.name = name;
-    }
 
     @Override
     public Wing getWing() {

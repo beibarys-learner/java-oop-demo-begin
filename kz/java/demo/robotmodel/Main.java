@@ -7,7 +7,8 @@ public class Main {
         aircraftWing.setSize(200);
         aircraftWing.open();
 
-        Robocop robocop = new Robocop("Robo Цыпа");
+        Robocop robocop = new Robocop();
+        robocop.setName("Biba");
         robocop.setWing(aircraftWing);
 
         robocop.flight();

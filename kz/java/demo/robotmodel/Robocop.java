@@ -4,8 +4,8 @@ public class Robocop extends ARobot{
     public Robocop() {
     }
 
-    public Robocop(String name) {
-        super(name);
+    public Robocop(String name, Wing wing) {
+        super(name, wing);
     }
 
     @Override
@@ -20,7 +20,7 @@ public class Robocop extends ARobot{
 
     @Override
     public void flight() {
-        System.out.println("Robocop flight" + getWing().getSize());
+        System.out.println("Robocop flight with wing size" + getWing().getSize());
     }
 
 

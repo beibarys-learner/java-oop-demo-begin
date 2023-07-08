@@ -9,7 +9,7 @@ public class AircraftWing implements Wing{
 
     @Override
     public int getSize() {
-        return 0;
+        return size;
     }
 
     public void setSize(int size) {

@@ -3,7 +3,9 @@ package kz.java.demo.robotmodel;
 public interface IRobot {
     // interface you can write only methods and constants
     // below methods
-    void move();
+    default void move(){
+        System.out.println("default move" + getName());
+    };
     void stop();
     void flight();
     // you cannot write the fields in the Interface

@@ -7,11 +7,11 @@ public class Robocop extends ARobot{
     public Robocop(String name, IWing wing) {
         super(name, wing);
     }
-
+/*
     @Override
     public void move() {
         System.out.println("Robocop move");
-    }
+    }*/
 
     @Override
     public void stop() {

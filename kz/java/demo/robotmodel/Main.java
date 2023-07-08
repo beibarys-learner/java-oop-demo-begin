@@ -8,13 +8,13 @@ public class Main {
         aircraftWing.open();
 
         Robocop robocop = new Robocop();
-        robocop.setName("Biba");
+        robocop.setName("Tsypa");
         robocop.setWing(aircraftWing);
 
-        robocop.flight();
-        robocop.talk();
+        robocop.move();
 
         // IRobot no more extends from Itechnic, ARobot implements IRobot, ITechnic
+        // default move, in Robocop class uncommented Robocop class
 
     }
 }

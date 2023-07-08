@@ -1,6 +1,6 @@
 package kz.java.demo.robotmodel;
 
-public class Terminator implements IRobot{
+public class Terminator extends ARobot{
     @Override
     public void move() {
         System.out.println("Terminator move");

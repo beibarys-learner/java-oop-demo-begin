@@ -1,6 +1,6 @@
 package kz.java.demo.robotmodel;
 
-public class Robocop implements IRobot{
+public class Robocop extends ARobot{
     @Override
     public void move() {
         System.out.println("Robocop move");
@@ -15,4 +15,6 @@ public class Robocop implements IRobot{
     public void flight() {
         System.out.println("Robocop flight");
     }
+
+
 }
